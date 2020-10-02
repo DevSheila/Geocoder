@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- axios  -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Geolocator api -->
+    <title> Vanilla JS  Geolocator</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Enter a Location</h2>
+        <form action="" id="location-form">
+            <input type="text" id="location-input" class="form-control form-control-lg">
+        </form>
+
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-block">SUBMIT</button>
+        <div  class="card block" id="formatted-address"></div>
+        <div class="card block" id="addressComponents"></div>
+        <div class="card block" id="geometry"></div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

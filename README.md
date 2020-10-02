@@ -1,2 +1,2 @@
 # Geocoder
-Vanilla JavaScript  geocolder
+Vanilla JavaScript  geocoder
